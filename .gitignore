@@ -4,3 +4,32 @@
 *.ptx
 *.cubin
 *.fatbin
+
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Local configuration and generated experiment results
+.env
+.env.*
+!.env.example
+outputs/
+results/
+figures/
+
+# Legacy PennyLane copies retained locally for reference only
+New Folder/
+New Folder (2)/
